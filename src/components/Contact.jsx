@@ -25,7 +25,7 @@ const Contact = () => {
                             <input
                             type="text"
                             id="name"
-                            className="input input-neutral w-full"
+                            className="input input-secondary w-full"
                             placeholder="Enter your name"
                             />
                         </div>
@@ -36,7 +36,7 @@ const Contact = () => {
                             <input
                             type="email"
                             id="email"
-                            className="input input-neutral w-full"
+                            className="input input-secondary w-full"
                             placeholder="Enter your email"
                             />
                         </div>
@@ -46,7 +46,7 @@ const Contact = () => {
                             </label>
                             <textarea
                             id="message"
-                            className="textarea textarea-neutral w-full"
+                            className="textarea textarea-secondary w-full"
                             rows="4"
                             placeholder="Enter your message"
                             ></textarea>

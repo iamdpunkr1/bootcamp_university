@@ -13,8 +13,8 @@ const Programs = () => {
     <div className="w-80 h-80 bg-slate-500 absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
         {/* <img src={hero} className="max-w-lg rounded-full " /> */}
         <div>
-        <h1 className="text-5xl font-bold text-center">Our Internship Programs</h1>
-        <p className="py-6 text-center text-xl">Take your career to the next level</p>
+        <h1 className=" text-5xl   font-bold text-center">Our Internship Programs</h1>
+        <p className="py-6 text-center md:text-xl  sm:text-sm">Take your career to the next level</p>
       
         <div className='flex flex-wrap gap-10 justify-center'>
             <Card cimg={mern} lnk="https://docs.google.com/forms/d/e/1FAIpQLScG8fP5jjhZH_tnR_CrF9sH7n2qsFtO7b0pN7jN-Hyb7wReoQ/viewform" cheader={"MERN Stack"} cbody={"Our MERN Stack development offers a comprehensive curriculum that covers everything from front-end to back-end development. Gain practical experience by building real-world applications from scratch."}/>
