@@ -6,7 +6,7 @@ import contactimg from '../assets/contactimg2.png'
 
 const Contact = () => {
   return (
-        <section className="hero min-h-screen bg-base-100 relative">
+        <section className="hero min-h-screen bg-base-100 relative pt-0">
             
             <div className="hero-content flex-col lg:flex-row">
             <div className="w-80 h-80 bg-teal-500 absolute top-30 left-20 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>

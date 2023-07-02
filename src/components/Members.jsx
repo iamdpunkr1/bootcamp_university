@@ -2,8 +2,8 @@ import React from 'react'
 
 const Members = ({cimg, cheader, cbody}) => {
   return (
-    <div className="card card-compact w-80 glass shadow-xl">
-        <figure className='h-48'><img src={cimg} alt="Shoes" /></figure>
+    <div className="card  w-80 glass shadow-xl">
+        <figure className='h-60 '><img src={cimg} alt="Shoes" /></figure>
         <div className="card-body">
             <h2 className="card-title">{cheader}</h2>
             <p>{cbody}</p>
