@@ -2,11 +2,12 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Members from '../components/Members'
-import anurag from '../assets/anurag.jpg'
+import rituraj from '../assets/rituraj.jpg'
 import souvik from '../assets/souvik.jpeg'
 import bhaskar from '../assets/bhaskar.jpg'
 import shahid from '../assets/shahid.jpeg'
 import dip from '../assets/dip.jpeg'
+import david from '../assets/david.jpg'
 
 const About = () => {
   return (
@@ -33,7 +34,11 @@ const About = () => {
                  <Members  cimg={bhaskar}  cheader={"CMO"} cbody="Hi there! My name is Bhaskar Baishya
                  and I am the Chief Marketing Officer of the Bootcamp University"/>  
                  <Members  cimg={dip}  cheader={"CTO"} cbody="Hi there! My name is Dipankar Prasad
-                 and I am the Chief Technical Officer of the Bootcamp University"/>    
+                 and I am the Chief Technical Officer of the Bootcamp University"/>
+                <Members  cimg={rituraj}  cheader={"CTO"} cbody="Hi there! My name is Rituraj Dutta
+                 and I am the Chief Technical Officer of the Bootcamp University"/>
+                <Members  cimg={david}  cheader={"CBDM"} cbody="Hi there! My name is Himangshu Baruah
+                 and I am the Chief Business Development Manager of the Bootcamp University"/>          
                </div>
                </div>
            </div>
